@@ -1,0 +1,22 @@
+@font-face
+{
+  font-family : 'comfortaa-Regular';
+  font-style : normal;
+  font-weight : normal;
+}
+body
+{
+  width : 1000px;
+  margin : auto;
+  background-color : white;
+  font-family : 'sans-serif';
+  color : black;
+
+}
+.whoweare
+{
+  width : 1000px;
+  margin : auto;
+  background-color : white;
+  color : black;
+}
