@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Comfortaa-Regular.ttf") format("truetype");
+  }
+  
+/* ------- General Styles -------*/
+
+body {
+    max-width: 1281px;
+    font-family: "Comfortaa", sans-serif;
+  }
+
+section{
+    margin : 0 auto;
+    width: 80%;
+}
+
+#cont-team-left{
+    float: left;
+    max-width : 45%;
+}
+
+#cont-team-right{
+    float: right;
+    max-width : 45%;
+}
