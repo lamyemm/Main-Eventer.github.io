@@ -17,9 +17,27 @@
     <section id="contact" class="section">
         <h2 class="section-title">Need an Events ?</h2>
         <div class="rectangle-underline"></div>
+
         <form class="contact-form" action="" method="">
             <div class="input-wrapper">
-                <input type="text" id="contact-name" />
+                <label for="contact-name" class="form-label">Name *</label>
+                <input type="text" id="contact-name" name="contact-name" class="form-input" />
+            </div>
+
+            <div class="input-wrapper">
+                <label for="contact-lastname" class="form-label">Lastname *</label>
+                <input type="text" id="contact-lastname" name="contact-lastname" class="form-input" />
+            </div>
+
+            <div class="input-wrapper">
+                <label for="contact-mail" class="form-label">E-mail *</label>
+                <input type="mail" id="contact-mail" name="contact-mail" class="form-input" />
+            </div>
+
+            <label for="contact-description" class="form-label">Description</label>
+            <textarea id="contact-description" name="contact-description" class="form-input form-textarea"></textarea>
+
+            <button class="form-button button">Send</button>
             </div>
         </form>
     </section>
