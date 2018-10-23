@@ -8,15 +8,19 @@ body
 {
   width : 1000px;
   margin : auto;
+  padding-top : 100px;
   background-color : white;
   font-family : 'sans-serif';
   color : black;
 
 }
-.whoweare
+h2
 {
-  width : 1000px;
-  margin : auto;
-  background-color : white;
+  width : 150px;
+  margin : 150px;
+  border : 1px solid;
+  padding-left: 700px;
+  padding-right: 300px;
+  background-color : red;
   color : black;
 }
