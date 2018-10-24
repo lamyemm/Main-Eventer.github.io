@@ -7,22 +7,55 @@
   
 /* ------- General Styles -------*/
 
+*{
+  box-sizing: border-box;
+}
+
 body {
     max-width: 1281px;
     font-family: "Comfortaa", sans-serif;
+    padding : 0;
+    margin: 0;
   }
 
-section{
+.section-team{
     margin : 0 auto;
-    width: 80%;
+    width: 960px;
+    background-color: grey;
 }
 
-#cont-team-left{
-    float: left;
-    max-width : 45%;
+div {
+  border: 1px solid red;
 }
 
-#cont-team-right{
-    float: right;
-    max-width : 45%;
+.grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#title-team{
+  font-size: 3em;
+  
+  display: inline-block;
+
+}
+
+#title-team:after {
+  background: none repeat scroll 0 0 #ff0000;
+  bottom: -10px;
+  content: "";
+  display: block;
+  height: 4px;
+  position: relative;
+  width: 230px;
+  margin: 0 auto;
+}
+
+
+#parent-float{
+  margin-top: 200px;
+}
+
+#our-team{
+text-align: center;
 }
