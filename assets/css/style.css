@@ -15,7 +15,7 @@
 }
 
 /* ------- General Styles -------*/
-body {
+body, .form-button {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -40,15 +40,39 @@ h1, h2, h3, h4, h5, h6 {
   width: 23em;
 }
 
+.button-wrapper {
+  text-align: center;
+}
+
+.button {
+  color: #af0102;
+  background-color: white;
+  transition: background-color 500ms ease;
+  padding: 0.5em 1.5em;
+  margin: 2em 0;
+  border: 1px solid #af0102;
+  border-radius: 16px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.button:hover, .button:focus {
+  color: white;
+  background-color: #af0102;
+  transition: background-color 500ms ease;
+}
+
 .contact-form {
-  padding: 4em 0;
+  padding: 3em 0;
   margin: 0 auto;
   width: 80%;
   max-width: 800px;
 }
 
 .input-wrapper {
-  margin: 2em 0;
+  margin: 1em 0;
+  display: inline-block;
+  width: 45%;
 }
 
 .form-label {
@@ -61,4 +85,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 1em;
   border: 1px solid #9b0000;
   padding: 0.5em;
+  width: 100%;
+  max-width: 250px;
+}
+
+.form-textarea {
+  max-width: 480px;
+  height: 200px;
 }

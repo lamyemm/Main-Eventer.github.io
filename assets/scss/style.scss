@@ -5,7 +5,7 @@
 @import "fonts";
 
 /* ------- General Styles -------*/
-body{
+body, .form-button{
     font-family: "Open Sans", sans-serif;
 }
 
@@ -30,30 +30,26 @@ h1, h2, h3, h4, h5, h6{
     width: 23em;
 }
 
-.contact-form{
-    padding: 4em 0;
-    margin: 0 auto;
-    width: 80%;
-    max-width: 800px;
+.button-wrapper{
+    text-align: center;
 }
 
-.input-wrapper{
+.button{
+    color: $button-text;
+    background-color: $button-background;
+    transition: background-color 500ms ease;
+    padding: 0.5em 1.5em;
     margin: 2em 0;
-}
-
-.form-label{
+    border: 1px solid $button-text;
+    border-radius: 16px;
+    text-transform: uppercase;
     font-size: 1.5em;
-    display: block;
-    margin: 0.5em 0;
+
+    &:hover, &:focus{
+        color: $button-text-hover;
+        background-color: $button-background-hover;
+        transition: background-color 500ms ease;
+    }
 }
 
-.form-input{
-    border-radius: 1em;
-    border: 1px solid $underline;
-    padding: 0.5em;
-    width: 100%;
-}
-
-.form-button{
-        
-}
+@import "form";
