@@ -1,6 +1,7 @@
 @font-face
 {
-  font-family : 'comfortaa-Regular';
+  font-family : "comfortaa";
+  src : url(https://fonts.googleapis.com/css?family=Comfortaa);
   font-style : normal;
   font-weight : normal;
 }
@@ -23,4 +24,7 @@ h2
   padding-right: 300px;
   background-color : red;
   color : black;
+  border-bottom: 4px solid #AB0810;
+  border-bottom-color: : rgb(171, 8, 16);
+
 }
