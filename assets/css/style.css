@@ -60,11 +60,10 @@ h2 {
 .date_topgrid{
     text-align: center;
     background-color: darkred;
-    height: 40px;
+    
     color: white;
     font-size: 25px;
-    vertical-align: 10px;
-    
+   font-size: 1.2em;
 }
 
 .date_1row {
