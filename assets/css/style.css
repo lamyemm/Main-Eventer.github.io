@@ -1,39 +1,91 @@
 
 
-body{
+body {
     
     font-family:  sans-serif;
-    background-color: red;
-    width: 1500px;
+    background-color: white;
+    justify-content: center;
     
 }
 
 
 #events{
     
-    
-    max-width: 1100px;
-    width:80%;
-    
-    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 
-#upperevents{
+#uperevents{
     
-    display: flex;
-    flex-wrap: nowrap; 
-    flex-direction: row;
-    /*
-    justify-content: space-around;
-    width:auto;
-    align-items: center;
-    */
+    
+    display: inline-grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 10px;
+      padding: 10px;
+               /* display: flex;
+                            flex-wrap: nowrap; 
+                            flex-direction: row;*/
+                            /*
+                            justify-content: space-around;
+                            width:auto;
+                            align-items: center;
+                            */
 }
 
-{
+h2 {
     
-   /* width: 100px;
-    margin: auto;
-    */
+    font-size: 3em;
+    
+}
+
+#event_title{
+    
+    justify-content: center;
+    margin-left: 40px;
+    
+}
+
+#date_grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-column-gap: 50px;
+    justify-content: center;
+    margin-top: 45px;
+    
+}
+
+.date_topgrid{
+    text-align: center;
+    background-color: darkred;
+    height: 40px;
+    color: white;
+    font-size: 25px;
+    vertical-align: 10px;
+    
+}
+
+.date_1row {
+    
+    box-shadow: 0px 3px 2px lightgray;
+    height: 150;
+    justify-content: center;
+    text-align: center;
+}
+
+.month_event{
+    color:lightblue;
+}
+
+.day_event{
+    
+    font-weight: bold;
+}
+
+.descrp_event{
+    font-size: 0.8em;
+    color: lightgray;
+    padding :15px;
 }
