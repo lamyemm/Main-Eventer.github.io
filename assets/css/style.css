@@ -40,26 +40,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 23em;
 }
 
-.button-wrapper {
-  text-align: center;
-}
-
-.button {
-  color: #af0102;
-  background-color: white;
-  transition: background-color 500ms ease;
-  padding: 0.5em 1.5em;
-  margin: 2em 0;
-  border: 1px solid #af0102;
-  border-radius: 16px;
+.uppercase {
   text-transform: uppercase;
-  font-size: 1.5em;
 }
 
-.button:hover, .button:focus {
-  color: white;
-  background-color: #af0102;
-  transition: background-color 500ms ease;
+.nav-title {
+  display: none;
 }
 
 .contact-form {
@@ -92,4 +78,83 @@ h1, h2, h3, h4, h5, h6 {
 .form-textarea {
   max-width: 480px;
   height: 200px;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+.button {
+  color: #af0102;
+  background-color: white;
+  transition: background-color 500ms ease;
+  padding: 0.5em 1.5em;
+  margin: 2em 0;
+  border: 1px solid #af0102;
+  border-radius: 16px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.button:hover, .button:focus {
+  color: white;
+  background-color: #af0102;
+  transition: background-color 500ms ease;
+}
+
+.footer {
+  background-image: url("../images/swirl_pattern.png");
+  background-repeat: repeat;
+  text-align: center;
+}
+
+.footer-content-wrapper {
+  max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
+.footer-text {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5em;
+  padding: 0.25em;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 2em;
+  transition: border-radius 500ms ease;
+}
+
+.social-link:hover, .social-link:focus {
+  border-radius: 0 50%;
+  transition: border-radius 500ms ease;
+}
+
+.social-link:last-child {
+  margin-right: 0;
+}
+
+.linkedin {
+  background-color: #007ab9;
+}
+
+.instagram {
+  background-color: #6a453c;
+}
+
+.twitter {
+  background-color: #55acef;
+}
+
+.facebook {
+  background-color: #3b5999;
 }
