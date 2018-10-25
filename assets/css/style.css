@@ -1,11 +1,29 @@
+@font-face {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Comfortaa-Regular.ttf") format("truetype");
+}
 
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
 
 body {
     
-    font-family:  sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-color: white;
     justify-content: center;
-    
+     box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Comfortaa", sans-serif;
 }
 
 
@@ -25,14 +43,6 @@ body {
       grid-template-columns: auto auto auto auto;
       grid-gap: 10px;
       padding: 10px;
-               /* display: flex;
-                            flex-wrap: nowrap; 
-                            flex-direction: row;*/
-                            /*
-                            justify-content: space-around;
-                            width:auto;
-                            align-items: center;
-                            */
 }
 
 h2 {
@@ -45,13 +55,27 @@ h2 {
     
     justify-content: center;
     margin-left: 40px;
+    position: relative;
+    display: inline-block;
+    
+    
+}
+#title_event:after{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    height: 4px;
+    background-color: rgb(155,0,0);
+    width: 80%;
+    top: 95px;
+    left :30px;
     
 }
 
 #date_grid{
     display: grid;
-    grid-template-columns: 250px 250px 250px;
-    grid-column-gap: 50px;
+    grid-template-columns: 240px 240px 240px;
+    grid-column-gap: 60px;
     justify-content: center;
     margin-top: 45px;
     
@@ -59,23 +83,26 @@ h2 {
 
 .date_topgrid{
     text-align: center;
-    background-color: darkred;
-    
+    background-color: rgb(155,0,0);
+    box-sizing: inherit;
     color: white;
-    font-size: 25px;
-   font-size: 1.2em;
+    font-size: 1.2em;
+    height: 30px;
+    
+    
 }
 
 .date_1row {
     
     box-shadow: 0px 3px 2px lightgray;
-    height: 150;
+    
     justify-content: center;
     text-align: center;
 }
 
 .month_event{
     color:lightblue;
+    font-size: 1.1em;
 }
 
 .day_event{
@@ -87,4 +114,18 @@ h2 {
     font-size: 0.8em;
     color: lightgray;
     padding :15px;
+}
+
+.theme_event{
+    display: inline-block;
+    width: 130px;
+    font-size: 0.9em;
+    margin:auto;
+    
+}
+
+.event_name{
+    margin:5px;
+   display: inline-block;
+    height: 25px;
 }
