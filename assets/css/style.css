@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section {
-  max-width: 1100px;
+  max-width: 960px;
   width: 80%;
   margin: 0 auto;
 }
@@ -34,10 +34,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.25em;
 }
 
-.rectangle-underline {
-  background-color: #9b0000;
+.section-title::after {
+  content: "";
+  display: block;
+  width: 7.75em;
   height: 5px;
-  width: 23em;
+  background-color: #9b0000;
 }
 
 .uppercase {
@@ -48,17 +50,23 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+@media only screen and (min-width: 912px) {
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .contact-form {
   padding: 3em 0;
   margin: 0 auto;
   width: 80%;
-  max-width: 800px;
+  max-width: 960px;
 }
 
 .input-wrapper {
   margin: 1em 0;
-  display: inline-block;
-  width: 45%;
 }
 
 .form-label {
@@ -67,15 +75,18 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.5em 0;
 }
 
-.form-input {
+.form-input, .form-textarea {
   border-radius: 1em;
   border: 1px solid #9b0000;
   padding: 0.5em;
-  width: 100%;
-  max-width: 250px;
+}
+
+.form-input {
+  width: 250px;
 }
 
 .form-textarea {
+  width: 100%;
   max-width: 480px;
   height: 200px;
 }
@@ -109,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-content-wrapper {
-  max-width: 1100px;
+  max-width: 960px;
   width: 80%;
   margin: 0 auto;
   padding: 3em 0;

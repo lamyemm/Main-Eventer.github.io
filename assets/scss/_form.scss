@@ -7,8 +7,6 @@
 
 .input-wrapper{
     margin: 1em 0;
-    display: inline-block;
-    width: 45%;
 }
 
 .form-label{
@@ -17,15 +15,18 @@
     margin: 0.5em 0;
 }
 
-.form-input{
+.form-input, .form-textarea{
     border-radius: 1em;
     border: 1px solid $underline;
     padding: 0.5em;
-    width: 100%;
-    max-width: 250px;
+}
+
+.form-input{
+    width: 250px;
 }
 
 .form-textarea{
+    width: 100%;
     max-width: 480px;
     height: 200px;
 }

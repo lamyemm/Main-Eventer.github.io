@@ -24,10 +24,12 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 0.25em;
 }
 
-.rectangle-underline{
-    background-color: $underline;
+.section-title::after{
+    content: "";
+    display: block;
+    width: 7.75em;
     height: 5px;
-    width: 23em;
+    background-color: $underline;
 }
 
 .uppercase{
@@ -36,6 +38,14 @@ h1, h2, h3, h4, h5, h6{
 
 .nav-title{
     display: none;
+}
+
+@media only screen and (min-width: 912px) {
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 @import "form";
