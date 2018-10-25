@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+/* ------- Colors ------- */
+/* ------- Fonts ------- */
+>>>>>>> 2d94f261b2e25900c84ee798cb32f6c009432c97
 @font-face {
   font-family: "Comfortaa";
   font-style: normal;
@@ -12,6 +17,7 @@
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
+<<<<<<< HEAD
 body {
     
     font-family: "Open Sans", sans-serif;
@@ -20,12 +26,18 @@ body {
      box-sizing: border-box;
     margin:0px;
     padding: 0px;
+=======
+/* ------- General Styles -------*/
+body, .form-button {
+  font-family: "Open Sans", sans-serif;
+>>>>>>> 2d94f261b2e25900c84ee798cb32f6c009432c97
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Comfortaa", sans-serif;
 }
 
+<<<<<<< HEAD
 
 #events{
     
@@ -129,3 +141,140 @@ h2 {
    display: inline-block;
     height: 25px;
 }
+=======
+.section {
+  max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 3em;
+  margin-bottom: 0.25em;
+}
+
+.rectangle-underline {
+  background-color: #9b0000;
+  height: 5px;
+  width: 23em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.nav-title {
+  display: none;
+}
+
+.contact-form {
+  padding: 3em 0;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.input-wrapper {
+  margin: 1em 0;
+  display: inline-block;
+  width: 45%;
+}
+
+.form-label {
+  font-size: 1.5em;
+  display: block;
+  margin: 0.5em 0;
+}
+
+.form-input {
+  border-radius: 1em;
+  border: 1px solid #9b0000;
+  padding: 0.5em;
+  width: 100%;
+  max-width: 250px;
+}
+
+.form-textarea {
+  max-width: 480px;
+  height: 200px;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+.button {
+  color: #af0102;
+  background-color: white;
+  transition: background-color 500ms ease;
+  padding: 0.5em 1.5em;
+  margin: 2em 0;
+  border: 1px solid #af0102;
+  border-radius: 16px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.button:hover, .button:focus {
+  color: white;
+  background-color: #af0102;
+  transition: background-color 500ms ease;
+}
+
+.footer {
+  background-image: url("../images/swirl_pattern.png");
+  background-repeat: repeat;
+  text-align: center;
+}
+
+.footer-content-wrapper {
+  max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
+.footer-text {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5em;
+  padding: 0.25em;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 2em;
+  transition: border-radius 500ms ease;
+}
+
+.social-link:hover, .social-link:focus {
+  border-radius: 0 50%;
+  transition: border-radius 500ms ease;
+}
+
+.social-link:last-child {
+  margin-right: 0;
+}
+
+.linkedin {
+  background-color: #007ab9;
+}
+
+.instagram {
+  background-color: #6a453c;
+}
+
+.twitter {
+  background-color: #55acef;
+}
+
+.facebook {
+  background-color: #3b5999;
+}
+>>>>>>> 2d94f261b2e25900c84ee798cb32f6c009432c97
