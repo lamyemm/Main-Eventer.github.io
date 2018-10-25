@@ -78,23 +78,8 @@ padding-bottom: 20px;
 .vignette > p {
   margin : 0;
 }
-<<<<<<< HEAD
-=======
 /* ------- Colors ------- */
 /* ------- Fonts ------- */
-@font-face {
-  font-family: "Comfortaa";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/Comfortaa-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
-}
 
 body {
 
@@ -354,4 +339,133 @@ h2 {
 
 .facebook {
   background-color: #3b5999;
+}
+
+/* ------- General Styles -------*/
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+    /* max-width: 1281px; */
+    font-family: "Comfortaa", sans-serif;
+    padding : 0;
+    margin: 0;
+  }
+
+  /* ------- Header Styles -------*/
+
+header{
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ),
+    /* bottom, image */
+    url(../images/header_Background.jpg);
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+    min-height: 480px;
+    position:relative;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+#nav{
+  padding: 5px;
+  position: absolute;
+  right: 100px;
+  top: 30px; 
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#image-header{
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+header img{
+  position: absolute;
+  top: 110px;
+}
+
+
+  /* ------- Section Our Team Styles -------*/
+
+
+.section-team{
+    margin: 0 auto;
+    width: 960px;
+    margin-bottom: 100px;
+    /* background-color: grey; */
+}
+
+/* 
+div {
+  border: 1px solid red;
+} */
+
+.grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 100px;
+}
+
+#title-team{
+  font-size: 3em;
+  display: inline-block;
+
+}
+
+#title-team:after {
+  background: none repeat scroll 0 0 #9B0000;
+  bottom: -10px;
+  content: "";
+  display: block;
+  height: 4px;
+  position: relative;
+  width: 230px;
+  margin: 0 auto;
+}
+
+#our-team{
+  text-align: center;
+}
+
+.left{
+  float: left;
+  width: 25%;
+  padding: 2px;
+}
+
+.right{
+  float: right;
+  width: 75%;
+  padding: 2px;
+}
+
+.grid p{
+  color: grey;
+}
+
+h3{
+  background-color: #9B0000;
+  color: #fff;
+  font-size: 1em;
+  width: 70px;
+  text-align: center;
+  padding: 4px;
 }
