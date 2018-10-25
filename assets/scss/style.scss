@@ -1,0 +1,43 @@
+/* ------- Colors ------- */
+@import "colors";
+
+/* ------- Fonts ------- */
+@import "fonts";
+
+/* ------- General Styles -------*/
+body, .form-button{
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Comfortaa", sans-serif;
+}
+
+.section{
+    max-width: 960px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-title{
+    font-size: 3em;
+    margin-bottom: 0.25em;
+}
+
+.rectangle-underline{
+    background-color: $underline;
+    height: 5px;
+    width: 23em;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.nav-title{
+    display: none;
+}
+
+@import "form";
+@import "button";
+@import "footer";
