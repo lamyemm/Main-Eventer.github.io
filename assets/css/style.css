@@ -16,7 +16,8 @@
 .container {
 
   position : relative;
-  width : 960px;
+  max-width : 960px;
+  width : 90%;
   margin : auto;
   padding-top : 100px;
   color : grey;
@@ -29,8 +30,6 @@
   position: relative;
   margin : 0px;
   top : 100px; left : 400px;
-  font-family : "Comfortaa";
-  color : black;
   font-size: 48px;
 }
 .titleabout::after {
@@ -96,19 +95,13 @@ body, .form-button {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1{
   font-family: "Comfortaa", sans-serif;
 }
 
 
 
-#events{
 
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-}
 
 
 #uperevents{
@@ -123,6 +116,8 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
 
     font-size: 3em;
+    color : black;
+    font-family: "Comfortaa", sans-serif;
 
 }
 
@@ -162,8 +157,7 @@ h2 {
     box-sizing: inherit;
     color: white;
     font-size: 1.2em;
-    height: 30px;
-
+    padding : 0,5em 0;
 
 }
 
@@ -183,6 +177,7 @@ h2 {
 .day_event{
 
     font-weight: bold;
+    color : black;
 }
 
 .descrp_event{
@@ -201,14 +196,9 @@ h2 {
 
 .event_name{
     margin:5px;
-   display: inline-block;
+    display: inline-block;
     height: 25px;
-}
 
-.section {
-  max-width: 960px;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .section-title {
@@ -360,7 +350,7 @@ h2 {
 
 body {
     /* max-width: 1281px; */
-    font-family: "Comfortaa", sans-serif;
+    font-family: "OpenSans", sans-serif;
     padding : 0;
     margin: 0;
   }
@@ -420,12 +410,6 @@ header img{
   /* ------- Section Our Team Styles -------*/
 
 
-.section-team{
-    margin: 0 auto;
-    width: 960px;
-    margin-bottom: 100px;
-    /* background-color: grey; */
-}
 
 /*
 div {
@@ -434,8 +418,8 @@ div {
 
 .grid{
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 100px;
+  grid-template-columns: 45% 45%;
+  grid-gap: 10%;
 }
 
 #title-team{
@@ -462,13 +446,13 @@ div {
 .left{
   float: left;
   width: 25%;
-  padding: 2px;
+  padding: 0 2px 2px 0;
 }
 
 .right{
   float: right;
   width: 75%;
-  padding: 2px;
+  padding: 0 2px;
 }
 
 .grid p{
